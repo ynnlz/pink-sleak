@@ -1,0 +1,38 @@
+{
+  "ping": {
+    "title": "Pong!",
+    "description": "Le bot fonctionne bien, {user}.",
+    "color": "0xFF69B4",
+    "footer": "Pink Sleak"
+  },
+  "help": {
+    "title": "Commandes disponibles",
+    "description": "Voici les commandes du bot :",
+    "color": "0xFF69B4",
+    "fields": [
+      {
+        "name": "!ping",
+        "value": "Verifie si le bot repond.",
+        "inline": false
+      },
+      {
+        "name": "!helpme",
+        "value": "Affiche ce message.",
+        "inline": false
+      },
+      {
+        "name": "!avatar",
+        "value": "Affiche ton avatar ou celui d un membre.",
+        "inline": false
+      }
+    ],
+    "footer": "Pink Sleak"
+  },
+  "avatar": {
+    "title": "Avatar de {username}",
+    "description": "Voici l avatar de {user}.",
+    "color": "0xFF69B4",
+    "image": "{avatar_url}",
+    "footer": "Pink Sleak"
+  }
+}

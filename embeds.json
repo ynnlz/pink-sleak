@@ -3,7 +3,7 @@
     "title": "Pong!",
     "description": "Le bot fonctionne bien, {user}.",
     "color": "0xFF69B4",
-    "footer": "PinkBot"
+    "footer": "Pink Sleak"
   },
   "help": {
     "title": "Commandes disponibles",
@@ -21,18 +21,85 @@
         "inline": false
       },
       {
-        "name": "!avatar `@user`",
-        "value": "Affiche ton avatar ou celui d'un membre.",
+        "name": "!avatar",
+        "value": "Affiche ton avatar ou celui d un membre.",
+        "inline": false
+      },
+      {
+        "name": "!tickets",
+        "value": "Installe le panneau de tickets. Admin uniquement.",
         "inline": false
       }
     ],
-    "footer": "PinkBot"
+    "footer": "Pink Sleak"
   },
   "avatar": {
     "title": "Avatar de {username}",
     "description": "Voici l avatar de {user}.",
     "color": "0xFF69B4",
     "image": "{avatar_url}",
-    "footer": "PinkBot"
+    "footer": "Pink Sleak"
+  },
+  "ticket_panel": {
+    "title": "Support Pink Sleak",
+    "description": "Choisis le type de ticket a ouvrir avec les boutons ci-dessous.",
+    "color": "0xFF69B4",
+    "fields": [
+      {
+        "name": "Reclamation / signalement",
+        "value": "Pour signaler un membre, un probleme ou faire une reclamation.",
+        "inline": false
+      },
+      {
+        "name": "Commande VIP",
+        "value": "Pour passer commande du role VIP.",
+        "inline": false
+      }
+    ],
+    "footer": "Pink Sleak - Tickets"
+  },
+  "ticket_report_created": {
+    "title": "Ticket reclamation / signalement",
+    "description": "Bonjour {user}, explique clairement ta reclamation ou ton signalement. Un membre du staff te repondra des que possible.",
+    "color": "0xFF4D6D",
+    "fields": [
+      {
+        "name": "A fournir",
+        "value": "Pseudo du membre concerne, raison, preuves si possible.",
+        "inline": false
+      }
+    ],
+    "footer": "Clique sur le bouton pour fermer le ticket"
+  },
+  "ticket_vip_created": {
+    "title": "Ticket commande VIP",
+    "description": "Bonjour {user}, indique ici que tu souhaites commander le role VIP. Le staff te donnera les informations pour finaliser la commande.",
+    "color": "0xFFD166",
+    "fields": [
+      {
+        "name": "A fournir",
+        "value": "Ton pseudo, la formule souhaitee et tes questions si tu en as.",
+        "inline": false
+      }
+    ],
+    "footer": "Clique sur le bouton pour fermer le ticket"
+  },
+  "ticket_created_private": {
+    "title": "Ticket cree",
+    "description": "Ton ticket a ete cree ici : {channel}",
+    "color": "0x57F287",
+    "footer": "Pink Sleak"
+  },
+  "ticket_already_open": {
+    "title": "Ticket deja ouvert",
+    "description": "Tu as deja un ticket ouvert ici : {channel}",
+    "color": "0xFAA61A",
+    "footer": "Pink Sleak"
+  },
+  "ticket_closing": {
+    "title": "Fermeture du ticket",
+    "description": "Ticket ferme par {user}. Le salon va etre supprime dans quelques secondes.",
+    "color": "0xED4245",
+    "footer": "Pink Sleak"
   }
 }
